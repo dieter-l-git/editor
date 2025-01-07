@@ -558,6 +558,18 @@
     "source": "iruinoVEA.cpp",
     "version": "0"
   },
+  "KC868-A6": {
+    "core": "esp32:esp32",
+    "default_ain": "36, 39, 34, 35",
+    "default_aout": "26, 25",
+    "default_din": "P0, P1, P2, P3, P4, P5, P6, P7",
+    "default_dout": "P0, P1, P2, P3, P4, P5",
+    "define": "BOARD_ESP32",
+    "last_update": 0,
+    "platform": "esp32:esp32:esp32:UploadSpeed=921600,PartitionScheme=huge_app,FlashMode=qio,FlashFreq=80",
+    "source": "KC868-A6.cpp",
+    "version": "3.0.4"
+  },
   "Mkr WiFi": {
     "core": "arduino:samd",
     "default_ain": "A1, A2, A3, A4, A5, A6",
